@@ -1,0 +1,312 @@
+.big-section {
+    height: 990px;
+    width: 100%;
+    border: 2.5px solid #A9A9A9;
+    border-radius: 25px;
+}
+
+.firstSection {
+    background-color: #D3D3D3;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.section {
+    position: relative;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+/* Second Section */
+
+.pianoDiCura {
+    height: 700px;
+    width: 97.5%;
+    margin-left: 5px;
+    margin-top: 15px;
+    border: 2.5px solid #A9A9A9;
+}
+
+.secondSection  {
+    background-color: #D3D3D3;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+
+.sectionTwo {
+    position: relative;
+    font-family: sans-serif;
+}
+
+.scrolling {
+    height: 700px;
+    width: 1.5%;
+    border: 2.5px solid #A9A9A9;
+    position: relative;
+    left: 1770px;
+    bottom: 630px;
+}
+
+.scrollUp {
+    height: 30px;
+    width: 30px;
+    border: 2.5px solid #A9A9A9;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    right: 5px;
+}
+
+.scrollUp::before{
+        content: '';
+        position: absolute;
+        left: 167%;
+        top: 55%;
+        width: 20px;
+        margin-left: -40px;
+        margin-top: -4px;
+        border-top: 5px solid;
+
+}
+
+.scrollUp::after {
+    content: '';
+    position: absolute;
+    left: 65%;
+    top: 170%; 
+    height: 20px;
+    margin-left: -6px;
+    margin-top: -40px;
+    border-left: 5px solid;
+    }
+
+    .scrollDown {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 370px;
+        right: 5px;
+        background-color: pink;
+    }
+    
+    .scrollDown::before{
+            content: '';
+            position: absolute;
+            left: 167%;
+            top: 55%;
+            width: 20px;
+            margin-left: -39px;
+            margin-top: -4px;
+            border-top: 5px solid;
+    }
+
+    .scrollCollapse {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 300px;
+        right: 5px;
+    }
+
+    /* Third Section */
+
+    .soglieInPiano {
+        height: 120px;
+        width: 97.5%;
+        position: relative;
+        top: 20px;
+        margin: 10px;
+        border: 2.5px solid #A9A9A9;
+    }
+
+    .scrollingSmall{
+        height: 120px;
+        width: 1.5%;
+        border: 2.5px solid #A9A9A9;
+        position: relative;
+        bottom: 105px;
+        left: 1720px;
+}
+
+    .scrollUpSmall {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+        right: 5px;
+    }
+
+    .scrollUpSmall::before {
+        content: '';
+        position: absolute;
+        left: 167%;
+        top: 55%;
+        width: 20px;
+        margin-left: -40px;
+        margin-top: -4px;
+        border-top: 5px solid;
+    }
+
+    .scrollUpSmall::after {
+        content: '';
+        position: absolute;
+        left: 65%;
+        top: 170%; 
+        height: 20px;
+        margin-left: -7px;
+        margin-top: -40px;
+        border-left: 5px solid;
+    }
+
+    .scrollDownSmall {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 25px;
+        right: 5px;
+        background-color: pink;
+    }
+    
+    .scrollDownSmall::before{
+            content: '';
+            position: absolute;
+            left: 167%;
+            top: 55%;
+            width: 20px;
+            margin-left: -39px;
+            margin-top: -4px;
+            border-top: 5px solid;
+    }
+
+    .scrollCollapseSmall {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        bottom: 39px;
+        right: 5px;
+    }
+
+    .soglieFuroiPiano {
+        height: 120px;
+        width: 97.5%;
+        position: relative;
+        top: 65px;
+        margin: 10px;
+        border: 2.5px solid #A9A9A9;
+    }
+
+    .scrollingSmallS {
+        height: 120px;
+        width: 1.5%;
+        border: 2.5px solid #A9A9A9;
+        position: relative;
+        bottom: 152px;
+        left: 1720px;
+    }
+
+    .scrollUpSmallS {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+        right: 5px;
+    }
+
+    .scrollUpSmallS::before {
+        content: '';
+        position: absolute;
+        left: 167%;
+        top: 55%;
+        width: 20px;
+        margin-left: -40px;
+        margin-top: -4px;
+        border-top: 5px solid;
+    }
+
+    .scrollUpSmallS::after {
+        content: '';
+        position: absolute;
+        left: 65%;
+        top: 170%; 
+        height: 20px;
+        margin-left: -7px;
+        margin-top: -40px;
+        border-left: 5px solid;
+    }
+
+    .scrollDownSmallS {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 25px;
+        right: 5px;
+        background-color: pink;
+    }
+    
+    .scrollDownSmallS::before{
+            content: '';
+            position: absolute;
+            left: 167%;
+            top: 55%;
+            width: 20px;
+            margin-left: -39px;
+            margin-top: -4px;
+            border-top: 5px solid;
+    }
+
+    .scrollCollapseSmallS {
+        height: 30px;
+        width: 30px;
+        border: 2.5px solid #A9A9A9;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        bottom: 39px;
+        right: 5px;
+    }
+
+    /* Soglie I */
+
+    .thirdSection {
+        position: relative;
+        bottom: 15px;
+        background-color: #D3D3D3;
+        margin: 10px;
+        padding: 12px;
+        border-radius: 25px;
+    }
+

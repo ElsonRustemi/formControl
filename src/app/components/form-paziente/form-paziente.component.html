@@ -1,0 +1,38 @@
+<form action="">
+    
+    
+    <div class="formPaziente">
+        <div class="section">
+            <label for="" style="position: relative; left: 10px; top: 10px; font-family: sans-serif;">Section</label>
+        </div>
+        <div>
+                <label for="" style="position: relative; top: 50px; left: 10px; font-family: sans-serif;">Id</label>
+                <label for="" style="position: relative; top: 90px; right: 3px; font-family: sans-serif;">Nome</label>
+                <label for="" style="position: relative; top: 130px; right: 45px; font-family: sans-serif;">Cognome</label>
+                <label for="" style="position: relative; top: 170px; right: 115px; font-family: sans-serif;">Sesso</label>
+
+        </div>
+
+
+        
+        <div class="formTable">
+            
+            <div class="space">
+                <input pInputText type="number">
+            </div>
+            
+            <div class="space">
+                <input pInputText type="text">
+            </div>
+            
+            <div class="space">
+                <input pInputText type="text">
+            </div>
+            
+            <div class="space">
+                <p-dropdown [options]="gender" optionLabel="name"></p-dropdown>
+            </div>
+            <button pButton type="submit" label="Crea Paziente"></button>
+        </div>
+    </div>
+</form>
